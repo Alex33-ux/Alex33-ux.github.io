@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Camper Setas</title>
+
+  <!-- Fuente estilo retro -->
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-image: url('https://img.freepik.com/fotos-premium/cerca-fondo-granos-cafe-tostado_36737-289.jpg?w=360');
+      background-size: cover;
+      background-position: center bottom; /* Ajustado para que la parte inferior de la imagen se vea más */
+      background-repeat: no-repeat;
+      background-attachment: fixed; /* Esto asegura que la imagen de fondo no se desplace cuando se hace scroll */
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding-top: 30px; /* Mantengo el padding superior de 30px */
+      padding-left: 30px; /* Mantengo el padding izquierdo */
+      padding-right: 30px; /* Mantengo el padding derecho */
+      padding-bottom: 80px; /* Aumenté el padding inferior para que se vea más la imagen de fondo */
+      color: #000;
+    }
+
+    .menu-box {
+      background: #daad73;
+      width: 600px;
+      padding: 5px 30px; /* Reducido el padding interno aún más */
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+      text-align: center;
+      min-height: 80px; /* Se mantiene el min-height reducido */
+      border-radius: 0; /* Elimina los bordes redondeados y hace las esquinas rectas */
+    }
+
+    .menu-box h1,
+    .menu-box .section-title {
+      font-weight: bold;
+      font-size: 48px;
+    }
+
+    .menu-box h1 {
+      font-size: 48px;
+    }
+
+    .menu-box .subhead {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+
+    .divider {
+      width: 100%;
+      height: 3px;
+      background-color: #601313;
+      margin: 15px 0 25px;
+    }
+
+    .section-title {
+      font-size: 20px; /* Reducción de tamaño de letra de las secciones Setas y Postres a 20px */
+      margin-top: 20px;
+      font-weight: bold;
+    }
+
+    .icon {
+      font-size: 30px;
+      margin: 10px 0;
+    }
+
+    .menu-list {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+      font-size: 24px;
+    }
+
+    .menu-list li {
+      display: flex;
+      justify-content: space-between;
+      margin: 6px 0;
+    }
+
+    .footer {
+      margin-top: 20px;
+    }
+
+    .footer .link {
+      font-size: 16px;
+      color: #701c1c;
+      text-decoration: underline;
+      margin-bottom: 6px;
+      display: block;
+      transition: color 0.3s ease; /* Añadido para transición de color */
+    }
+
+    .footer .link:hover {
+      color: red; /* Cambia el color a rojo al pasar el cursor */
+    }
+
+    .footer .link:active {
+      color: white; /* Cambia el color a blanco al hacer clic */
+    }
+
+    .footer .address {
+      font-size: 18px;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+  <div class="menu-box">
+    <h1>CampeR SetaS</h1>
+    <div class="subhead">Nop. 2023</div>
+    <div class="divider"></div>
+
+    <div class="section-title">Setas</div>
+    <div class="icon">☕</div>
+    <ul class="menu-list">
+      <li><span>Boletus Vanilla</span><span>3.00</span></li>
+      <li><span>Boletus 2</span><span>3.75</span></li>
+      <li><span>Boletus Spice</span><span>3.50</span></li>
+      <li><span>Boletus 3</span><span>4.00</span></li>
+      <li><span>Boletus x</span><span>4.50</span></li>
+    </ul>
+
+    <div class="section-title">Postres</div>
+    <div class="icon">🥧</div>
+    <ul class="menu-list">
+      <li><span>Donut de Boletus</span><span>1.50</span></li>
+      <li><span>Boletus Pie</span><span>2.75</span></li>
+      <li><span>Boletus solo</span><span>3.00</span></li>
+      <li><span>Boletus Roll</span><span>2.50</span></li>
+    </ul>
+
+    <div class="divider"></div>
+    <div class="footer">
+      <a href="https://www.tuwebsite.com" class="link" target="_blank">Visita nuestro website</a> <!-- Enlace que abre en otra ventana -->
+      <div class="address">123 La Seta Dos</div>
+    </div>
+  </div>
+</body>
+</html>
